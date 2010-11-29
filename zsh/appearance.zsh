@@ -45,4 +45,4 @@ ZSH_THEME_SVN_PROMPT_AHEAD="+"              # Text to display if the branch is h
 setopt prompt_subst
 
 # Load the theme
-source "$ZSH/themes/$ZSH_THEME.zsh-theme"
+source "$ZSH/zsh/$ZSH_THEME.zsh-theme"
