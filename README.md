@@ -11,7 +11,7 @@ Usage
 
 ``` shell
 # Path to zshpie configuration
-export ZSH=$HOME/Code/zshpie
+export ZSH=$HOME/path/to/zshpie
 
 # Set theme
 export ZSH_THEME="binarypie"
