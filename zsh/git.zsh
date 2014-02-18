@@ -22,8 +22,5 @@ parse_git_dirty () {
         return
     fi
 
-    if [[ $(echo ${gitstat} | grep -v '^$' | wc -l | tr -d ' ') == 0 ]]; then
-        echo -n "$ZSH_THEME_GIT_PROMPT_CLEAN"
-        return
-    fi
+    echo -n "$ZSH_THEME_GIT_PROMPT_CLEAN"
 }
